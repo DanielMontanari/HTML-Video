@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Video</title>
+
+	<meta charset="utf-8">
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel="stylesheet" type="text/css">
+	<style type="text/css">
+		body{
+			background-color: #000;
+			font-family: roboto;
+		}
+		h1, h2{
+			width: 600px;
+			margin: 0px auto;
+			color: #fff;
+		}
+		.grayscale {
+			-webkit-filter: grayscale(1);
+			filter: grayscale(1);
+		}
+		video {
+			display: block;
+			margin: 50px auto;
+		}
+	</style>
+</head>
+<body>
+	<h1>HTML-Video</h1>
+	<video width="600" controls="controls" preload="auto" muted loop poster="jazzcat.png">
+		<source src="MP4_Bunny.mp4" type="video">
+			<source src="OGC_Bunny.ogv" type="video">
+				<source src="WEBM_Bunny.webm" type="video">
+				</video>
+
+				<h2>The same video, but with media fragments to start at 45s and end at 55s (and without the loop):</h2>
+				<video width="600" controls="controls" preload="auto" muted poster="jazzcat.png">
+					<source src="MP4_Bunny.mp4" type="video">
+						<source src="OGC_Bunny.ogv" type="video">
+							<source src="WEBM_Bunny.webm" type="video">
+							</video>
+
+						</body>
+						</html>
